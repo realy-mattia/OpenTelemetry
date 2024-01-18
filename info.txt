@@ -1,6 +1,8 @@
 #########
 
-esegui il comando package per impacchettare tutto
+esegui il comando maven package per impacchettare tutto
+(mi posiziono dentro il progetto)
+./mvwn package
 
 #########
 
