@@ -11,3 +11,7 @@ Esegui il javaagent con il seguente comando
  -posizionarsi dentro la cartella del progetto
 
 OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318 OTEL_RESOURCE_ATTRIBUTES=service.name=springOpenTelemetry java -javaagent:/Users/mattiasardellini/Library/CloudStorage/OneDrive-DGSSpA/Documenti/Progetti/opentelemetry-javaagent.jar -jar target/*.jar
+
+#################
+
+Sito info https://signoz.io/blog/opentelemetry-spring-boot
