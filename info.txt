@@ -1,0 +1,10 @@
+#########
+
+esegui il comando package per impacchettare tutto
+
+#########
+
+Esegui il javaagent con il seguente comando
+    - tieni presente il percorso di installazione di javaagent (nel dubbio mettilo dentro il progetto)
+
+OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318 OTEL_RESOURCE_ATTRIBUTES=service.name=springOpenTelemetry java -javaagent:/Users/mattiasardellini/Library/CloudStorage/OneDrive-DGSSpA/Documenti/Progetti/opentelemetry-javaagent.jar -jar target/*.jar
